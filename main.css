@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+html {
+  font-size: 14px;
+  color: black;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.main{
+    background-position: center center;
+    background-size: cover;
+    height: auto;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 0;
+    width: auto;
+}
+.cover{
+    position: fixed;
+    opacity: 1;
+    background-color: rgba(0,0,0,.6);
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.cover.black{
+    background-color: rgba(0,0,0,.6);
+}
+.main .logo{
+    color: #FFFFFF;
+    font-size: 82px;
+    font-weight: 300;
+    position: relative;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.33);
+    margin-top: 145px;
+    z-index: 3;
+}
+.my-icons{
+  font-size: 22px;
+}
+.main .content{
+    position: relative;
+    z-index: 4;
+}
+.footer{
+    position: relative;
+    bottom: 20px;
+    right: 0px;
+    width: 100%;
+    color: #AAAAAA;
+    z-index: 4;
+    text-align: right;
+    margin-top: -10px;
+}
+body {
+  
+  color: white;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.list1 {
+  font-size: 18px;
+  margin-top: 40px;
+  margin-right: 80px;
+  color: #f7f8f4ea;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.list1:hover {
+  color: white;
+  text-decoration: unset;
+  color: inherit;
+}
+.list-style{
+  display: flex;
+  justify-content: flex-end;
+  color: rgba(241, 239, 239, 0.836) ;
+  
+}
+.list-style:hover{
+  color: rgba(245, 241, 241, 0.945);
+  text-decoration: unset;
+}
+.item1:hover{
+  color: rgba(245, 241, 241, 0.945);
+}
+.container3{
+  display: flex;
+  position: relative;
+    right: -13px;
+    left: 850px;
+    top: 30px;
+    font-size: 16px;
+}
+.item1 {
+  margin-right: 30px;
+}
+.item2 {
+  margin-right: 30px;
+}
+
+.item-a .item-b .item-c:hover{
+    text-decoration: underline;
+    color: inherit;
+    box-shadow: unset;
+  }
+
+.cursive {
+  font-family: "Grand Hotel", cursive;
+  font-size: 82px;
+  color: white;
+  text-align: center;
+  margin-top: 64px;
+}
+.motto {
+  text-align: center;
+  margin-top: 45px;
+  font-size: 28px;
+}
+.info-text {
+  text-align: center;
+  margin-top: 165px;
+  font-size: 18px;
+}
+.form-inline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.container1 {
+  position: absolute;
+  bottom: -120px;
+  right: 60px;
+}
+.form-group {
+  margin-right: 5px;
+}
+
+.form-control {
+  background-color: #ffffff;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  box-shadow: none;
+  color: white;
+  height: 38px;
+  padding: 6px 16px;
+  width: 260px;
+}
+.form-control.transparent {
+  background-color: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(238, 238, 238, 0.27);
+  color: #ffffff;
+}
+.form-control.transparent:focus {
+  border-color: #ffffff;
+}
+
+.button-style {
+  height: 39px;
+  width: 90px;
+}
+.icon{
+    color: #FF6347;
+}
+.navbar-nav > li > a {
+    margin-top: 13px;
+    margin-bottom: 13px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    font-size: 16px;
+}
+.navbar{
+    border: 0 none;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    font-size: 16px;
+}
+.navbar-default {
+    background-color: #D9D9D9;
+    
+}
+.navbar .navbar-brand {
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.navbar-nav{
+  position: absolute;
+  z-index: 5;
+  margin-left: 120px;
+    margin-top: 13px;
+    
+}
+.dropdown-a{
+  color: #efebeba9;
+}
+.dropdown-a:visited{
+  color: white;
+}
+.link-footer:hover{
+  text-decoration: underline;
+  color: white;
+}
+.link-footer{
+  color: white;
+}
